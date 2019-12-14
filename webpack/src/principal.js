@@ -1,5 +1,5 @@
-// const Pessoa = require('./pessoa')
 import pessoa from './pessoa'
+// import './modulos/moduloA'
 
-const atendente = new Pessoa
+const atendente = new pessoa
 console.log(atendente.cumprimentar())
