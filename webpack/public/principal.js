@@ -78,7 +78,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const moduloB = __webpack_require__(/*! ./moduloB */ \"./src/modulos/moduloB.js\")\r\nconsole.log(moduloB.saudacao())\n\n//# sourceURL=webpack:///./src/modulos/moduloA.js?");
+eval("const moduloB = __webpack_require__(/*! ./moduloB */ \"./src/modulos/moduloB.js\")\r\nconsole.log(moduloB.saudacao()) \n\n//# sourceURL=webpack:///./src/modulos/moduloA.js?");
 
 /***/ }),
 
