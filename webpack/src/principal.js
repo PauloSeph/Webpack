@@ -1,5 +1,5 @@
 import pessoa from './pessoa'
-// import './modulos/moduloA'
+import './assets/css/estilo.css'
 
 const atendente = new pessoa
 console.log(atendente.cumprimentar())
