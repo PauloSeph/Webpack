@@ -13,6 +13,10 @@ module.exports = {
         filename: 'principal.js',
         path: __dirname + '/public'
     },
+    devServer: {
+        contentBase: "./public",
+        port: 9000
+    },
     optimization: {
         minimizer: [
             new uglyfyJsPlugin ({
@@ -34,8 +38,12 @@ module.exports = {
                 MiniCSS.loader,
                 // 'style-loader', // Adiciona o CSS a DOM injetando a tag <style>
                 'css-loader', // interpreta @import, url()...
-                'sass-loader'
+                'sass-loader',
+                
             ]
+        }, {
+            test: /\.(png|svg|jpg|gif)$/,
+            use: ['file-loader']
         }]
 
     }
